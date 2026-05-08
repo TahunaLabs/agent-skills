@@ -5,11 +5,11 @@ Agent skills for common Tahuna workflows.
 ## Install
 
 ```bash
-# Choose which skills you want
-npx skills add <repo-url>
+# Install all Tahuna skills
+npx skills add TahunaLabs/agent-skills
 
-# OR install all skills
-npx skills add <repo-url> --all
+# Or install one skill
+npx skills add TahunaLabs/agent-skills --skill tahuna-train-project
 ```
 
 ## Usage
