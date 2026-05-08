@@ -12,8 +12,6 @@ npx skills add <repo-url>
 npx skills add <repo-url> --all
 ```
 
-Replace `<repo-url>` with the Git URL for this repository.
-
 ## Usage
 
 Skills are applied automatically when the agent determines they're relevant. How
@@ -39,11 +37,6 @@ In Cursor or Claude Code:
 /tahuna-setup-hardware
 ```
 
-In Windsurf:
-
-```text
-@tahuna-setup-hardware
-```
 
 ## Available Skills
 
@@ -63,13 +56,3 @@ Skills in this repo should be focused on concrete Tahuna workflows:
 
 They should help an agent take action in a user's project, not provide generic
 background information about Tahuna.
-
-## Contributing
-
-When adding or changing a skill:
-
-- Keep the skill focused on one Tahuna workflow.
-- Make paid-compute actions explicit before launch.
-- Ask for confirmation before starting long-running runs or serves.
-- Keep provider credentials out of project files.
-- Update this README when skills are added, removed, or renamed.
