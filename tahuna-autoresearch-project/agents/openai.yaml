@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tahuna Autoresearch Project"
+  short_description: "Iterate on Tahuna projects with autonomous research runs."
+  default_prompt: "Use $tahuna-autoresearch-project to run an autoresearch loop for my Tahuna project."
